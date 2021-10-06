@@ -17,10 +17,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @Layer("web")
 @Lead("qa-lead")
-@Owner("antonina")
 @Feature("Tests for 'It-one'")
 public class WebTests extends TestBase {
     @Test
+    @Owner("antonina")
     @Story("Проверка заголовка главной страницы")
     @Microservice("Repository")
     @Tags({@Tag("web"), @Tag("regress")})
@@ -39,6 +39,7 @@ public class WebTests extends TestBase {
     }
 
     @Test
+    @Owner("antonina")
     @Story("Открытие страниц сайта")
     @Microservice("Billing")
     @Tags({@Tag("web"), @Tag("smoke")})
@@ -61,6 +62,7 @@ public class WebTests extends TestBase {
     }
 
     @Test
+    @Owner("antonina")
     @Story("Открытие страниц сайта")
     @Microservice("Billing")
     @Tags({@Tag("web"), @Tag("smoke")})
@@ -87,6 +89,7 @@ public class WebTests extends TestBase {
     }
 
     @Test
+    @Owner("antonina")
     @Story("Открытие страниц сайта")
     @Microservice("Billing")
     @Tags({@Tag("web"), @Tag("smoke")})
@@ -111,6 +114,7 @@ public class WebTests extends TestBase {
     }
 
     @Test
+    @Owner("antonina")
     @Story("Открытие страниц сайта")
     @Microservice("Repository")
     @Tags({@Tag("web"), @Tag("regress")})
